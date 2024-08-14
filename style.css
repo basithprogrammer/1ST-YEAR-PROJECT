@@ -1,7 +1,6 @@
-h1 {
-  font-family: Verdana;
-  padding right:20px ; 
-}
-tr{
-    font-family: Verdana;
+body {
+  background-image: url(https://images.app.goo.gl/hoVtUZyvrqRuakqL6);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
 }
