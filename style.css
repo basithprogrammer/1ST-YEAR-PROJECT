@@ -4,3 +4,9 @@ body {
   height: 100vh;
   background-position: center;
 }
+.imagedd {
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
