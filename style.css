@@ -4,7 +4,7 @@ body {
   height: 100vh;
   background-position: center;
 }
-.imagedd {
+.image{
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
