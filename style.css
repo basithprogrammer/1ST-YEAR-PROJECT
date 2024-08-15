@@ -28,3 +28,6 @@ nav > a:hover {
   background: rgb(56, 130, 209);
   color: white;
 }
+input {
+  padding-left: 1000px;
+}
