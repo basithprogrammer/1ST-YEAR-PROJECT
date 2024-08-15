@@ -24,4 +24,5 @@ nav > a:hover {
 input {
   padding-right: 500px;
   border-radius: 22px;
+  margin-top: -50px;
 }
