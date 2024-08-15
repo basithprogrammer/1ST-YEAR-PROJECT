@@ -14,12 +14,12 @@ img {
   margin-top: -1500px;
 }
 nav{
-  background:wheat;
+  background:white;
   width: 360px;
   display: flex;
   justify-content: space-between;
   padding:5px;
-  padding-left: 200px;
+  padding-left: 500pxpx;
   border-radius: 22px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0,3);
 }
