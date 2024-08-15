@@ -22,10 +22,8 @@ nav > a:hover {
   color: white;
 }
 input {
-  padding-left: 600px;
   display: flex;
-  margin-top: -1000px;
-  border: 3px;
   flex-grow: 1;
   justify-content: space-around;
+  align-items: center;
 }
