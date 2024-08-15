@@ -3,6 +3,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: center;
+  background-repeat: no-repeat;
 }
 img {
   width: 200px;
