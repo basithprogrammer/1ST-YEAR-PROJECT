@@ -25,4 +25,5 @@ input {
   padding-left: 600px;
   display: flex;
   margin-top: -1000px;
+  border-radius: 50px;
 }
