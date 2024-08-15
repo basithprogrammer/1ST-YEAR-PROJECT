@@ -14,7 +14,7 @@ nav {
   width: 360px;
   justify-content: space-between;
   padding-left: 1000px;
-  margin-top: -500px;
+  margin-top: -50px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0, 3);
 }
 nav > a {
