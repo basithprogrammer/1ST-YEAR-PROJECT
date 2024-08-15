@@ -36,3 +36,10 @@ input {
   margin-left: 950px;
   padding-top: -50px;
 }
+.image{
+  background-image:url("https://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30200.jpg ;")
+  background-size:cover ;
+  background-clip:text ;
+  -webkit-background-clip: text;
+  color: transparent;
+}
