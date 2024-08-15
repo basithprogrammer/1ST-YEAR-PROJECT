@@ -46,5 +46,6 @@ input {
   -webkit-background-clip: text;
   color: transparent;
   margin-top: -60px;
-  padding-left: 1500px;
+  padding-left: 1000px;
+  margin-right: 20px;
 }
