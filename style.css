@@ -29,7 +29,8 @@ nav > a:hover {
   color: white;
 }
 input {
-  padding-left: 1000px;
+  padding-left: 500px;
+  padding: 8px 10px
   text-decoration: none;
   border-radius: 22px;
 }
