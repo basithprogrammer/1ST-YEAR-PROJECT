@@ -39,15 +39,4 @@ input {
   margin-left: 950px;
   padding-top: -50px;
 }
-.image {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTikPGflZbccXzUNha-7M-5ZpfizmvK8vwpIw&s);
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  margin-top: -70px;
-  padding-left: 1000px;
-  margin-left: 60px;
-  font-family: Impact;
-  font-size: 200%;
-}
+
