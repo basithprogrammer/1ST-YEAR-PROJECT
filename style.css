@@ -26,4 +26,6 @@ input {
   display: flex;
   margin-top: -1000px;
   border: 3px;
+  flex-grow: 1;
+  justify-content: space-around;
 }
