@@ -19,7 +19,7 @@ nav{
   display: flex;
   justify-content: space-between;
   padding:5px;
-  padding-left: 500pxpx;
+  padding-left: 500px;
   border-radius: 22px;
   box-shadow: 2px 2px 2px rgba(0,0,0,0,3);
 }
