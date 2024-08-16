@@ -21,9 +21,23 @@ nav > a:hover {
   background: rgb(56, 130, 209);
   color: white;
 }
-input {
+form {
+  border: 1px solid grey;
+  border-radius: 100px;
+  padding: 8px 10px;
   display: flex;
-  flex-grow: 1;
-  justify-content: space-around;
-  align-items: center;
+  gap: 5px;
+  width: 500px;
+  margin: 0 auto;
+}
+button {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}
+input {
+  border: none;
+  outline: none;
+  width: 100%;
 }
