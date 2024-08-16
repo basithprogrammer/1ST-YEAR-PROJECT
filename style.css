@@ -22,7 +22,7 @@ nav > a:hover {
   color: white;
 }
 form {
-  padding-top: -1000px;
+  margin-top: -1000px;
 }
 button {
   background-color: transparent;
