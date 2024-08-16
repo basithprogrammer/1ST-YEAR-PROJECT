@@ -21,7 +21,9 @@ nav > a:hover {
   background: rgb(56, 130, 209);
   color: white;
 }
-
+form {
+  padding-top: -1000px;
+}
 button {
   background-color: transparent;
   border: none;
