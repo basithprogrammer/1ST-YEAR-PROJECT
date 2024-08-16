@@ -34,7 +34,7 @@ button {
 input {
   border-color: white;
   outline: none;
-  width: 100%;
-  background-color: #273746;
+  width: 50px;
+  background-color: white;
   margin-top: -2000px;
 }
