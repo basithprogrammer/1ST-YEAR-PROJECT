@@ -5,14 +5,6 @@ body {
 }
 h1 {
   color: white;
-  padding: 50px;
+  padding: 90px;
   font-size: xx-large;
-}
-.navbar {
-  padding-left: 550px;
-}
-
-.navbar a {
-  text-decoration: none;
-  padding-bottom: 50px;
 }
