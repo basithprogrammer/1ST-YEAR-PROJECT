@@ -9,5 +9,9 @@ h1 {
   font-size: xx-large;
 }
 .navbar {
-  padding-left: 500px;
+  padding-left: 550px;
+}
+
+.navbar a {
+  text-decoration: none;
 }
