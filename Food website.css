@@ -1,0 +1,404 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/*navbar-section*/
+.navbar-header img{
+  width: 50px;
+  margin:0 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.navbar-header h3{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding:0.5rem;
+}
+.navbar{
+  position: fixed;
+  background-color: black;
+  top:0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+ width: 50%;
+  transition:all 0.3s linear;
+  transform: translateX(-100%);
+  z-index:3;
+}
+.navbar-items a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: 'poppins';
+  text-transform: uppercase;
+  padding:0.75rem 1rem;
+  letter-spacing: 0.5px;
+  transition:all 0.5s linear;
+}
+.navbar-items a:hover{
+  background-color: coral;
+  padding-left: 1.5rem;
+  border-left:0.5rem solid yellow;
+ 
+ 
+}
+.navbar-header{
+  position: relative;
+}
+.nav-close{
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  color: red;
+  font-size:15px;
+}
+.nav-close span{
+  transition: all 0.1s linear;
+}
+.nav-close:hover span{
+  color: white;
+}
+
+.nav-input{
+  display: none;
+}
+.nav-btn span{
+  position:absolute;
+  color: white;
+ top:25px;
+ left: 15px;
+}
+#nav-check:checked ~ .navbar{
+  transform: translateX(0);
+ 
+}
+
+/*header-section*/
+.header{
+  
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhceQvulxEn1ZbOQTNixlmRTkpHNSuKMCLyw&usqp=CAU") center/cover no-repeat fixed;
+  width: 100%;
+  height:100vh;
+  
+  border-bottom-color: coral;
+}
+.banner{
+  text-align: center;
+ 
+  
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.banner p{
+  
+  font-size:13px;
+  font-weight: bold;
+  padding: 5px;
+  font-style: italic;
+  font-family: "Kaushan Script", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(180deg,#f04660,#F8F8FF);
+  color: transparent;
+  background-clip:text;
+}
+
+
+.banner h3{
+  text-shadow:0px 0px 5px red;
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.banner button{
+ 
+ 
+  border-radius: 0.9em;
+  background-color: #f04660;
+  color: white;
+  border: none;
+  outline-style: outset ;
+  margin: 0.5rem 0;
+  outline-color: #f04660;
+  font-size: 10px;
+  font-family: 'poppins';
+  padding: 3px 8px;
+}
+/*container*/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#F8F8FF;
+  justify-content: space-evenly;
+  padding: 2px;
+  margin-top: 2px;
+ 
+  
+  
+}
+.container div span{
+  position:relative;
+  left: 47%;
+}
+.container div{
+  width: 100%;
+  padding: 10px 2px;
+}
+.container div:hover{
+  background-color: white;
+  border: 1px solid coral;
+  transition: all 0.5s linear;
+}
+.container div span,h4,p{
+  padding: 5px;
+  text-align: center;
+}
+.container div h4{
+  font-size: 10px;
+  text-align: center;
+  font-family: 'poppins';
+}
+.container div p{
+  font-size: 0.5rem;
+  font-family: 'poppins';
+}
+.template2{
+  width: 100%;
+  height: 100%;
+  
+}
+.template2-img img:hover{
+
+  border:2px solid coral;
+  opacity: 0.5;
+}
+.template2 .template2-img img{
+  object-fit: cover;
+  width: 80%;
+  transform: translateX(-50%);
+  height: 80%;
+  position: relative;
+  left: 50%;
+  top: 10px;
+  
+}
+.template3 h3{
+  font-family: 'poppins';
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+}
+.template3 p:nth-child(1)
+{
+  color: coral;
+  text-align:justify;
+  font-size: 30px;
+font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+.template3 p{
+  font-family: 'poppins';
+  font-size: 10px;
+  font-style: lighter;
+}
+.template3-btn{
+   color:white;
+   border: none;
+   background-color:#f09660;
+   padding:5px;
+   margin:5px;
+   font-size: 10px;
+}
+
+.container1
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F8F8FF;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family:'poppins';
+  gap: 10px;
+}
+.container1 .container1-div{
+  margin: 0.5em 0;
+  animation: slide linear;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
+.container1 .container1-div img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.container1 .container1-div p{
+  text-align: left;
+  padding: 0;
+ 
+}
+.container1-div img:hover{
+  border: 2px solid coral;
+  opacity: 0.5;
+  
+}
+@keyframes slide{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+
+.template2 .template2-img{
+  animation:appear linear;
+  animation-timeline: view();
+  animation-range:entry 0% ;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+.section{
+ background-color: #F2F2FF;
+}
+/*contact-info*/
+.contact-info
+{
+  
+  
+  
+
+}
+.contact-item{
+  display: block;
+  font-family: 'poppins';
+}
+.contact-item p,h4{
+  text-align: left;
+  display: block;
+}
+
+.contact-form{
+  background-color: white;
+ border-radius: 0.5em;
+  box-sizing: border-box;
+ 
+}
+.contact-form label{
+  font-family: 'poppins';
+  position: relative;
+  font-size: 10px;
+  left: 5px;
+  transition: all 0.3s ease;
+}
+.contact-form input:focus+label,.contact-form input:valid+label{
+  top: -13px;
+  font-size: 10px;
+  background-color: white;
+  transition:all 0.3s ease;
+  z-index: 2;
+}
+.contact-form input{
+  position: absolute;
+  height: 25px;
+  border:1px solid grey;
+  outline: none;
+  transition:all 0.3s ease;
+}
+
+.form-item{
+  margin: 1.5rem 0;
+}
+.contact-form input,textarea{
+  display: block;
+  width: 100%;
+  
+}
+.contact-form button{
+  display: block;
+  margin: 0.5em 0;
+  background-color: coral;
+  border: 1px solid coral;
+  font-size: 10px;
+  padding: 3px 5px;
+  outline: none;
+  color: white;
+}
+.contact-form h3{
+  text-align: center;
+  color: coral;
+  font-family: "Kaushan Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer{
+  
+  padding: 10px;
+  margin: 1rem 0;
+  background-color:black;
+}
+.footer .icons{
+  display:flex;
+  justify-content: center;
+}
+.footer .icons a{
+  margin: 0 1.5em;
+  border:1px solid white;
+  border-radius:0.3em;
+  display: inline-block;
+  padding: 5px;
+  
+}
+.icons a:nth-child(1){
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+}
+.icons a:nth-child(2){
+  background-color: #1877F2;
+  color: white;
+}
+.icons a:nth-child(3){
+  background-color: red;
+  color: white;
+}
+.icons a:nth-child(4)
+{
+  color: white;
+  background: linear-gradient(rgb(254, 218, 117),rgb(250, 126, 30),rgb(250, 126, 30),rgb(214, 41, 118),rgb(150, 47, 191),rgb(79, 91, 213));
+}
+.footer p span{
+  font-family: 'poppins';
+  color:coral;
+}
+.footer p{
+  color: white;
+  margin: 0.5rem 0;
+  font-size: 10px;
+  font-family: 'poppins';
+  display: block;
+  font-weight: 200;
+}
